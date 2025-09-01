@@ -1,0 +1,39 @@
+.carousel img {
+  height: 75vh;
+  object-fit: cover;
+}
+
+.about-us-content p {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.about-carousel {
+  padding-top: 15%;
+  margin-left: 15%;
+  cursor: pointer;
+}
+
+.carousel-content span{
+    line-height: 0;
+}
+
+.call-action{
+    height: 250px;
+    background-image: url(../image/parallax.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-action a {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.call-action a:hover {
+  color: #4c5667;
+  background: #fff;
+}

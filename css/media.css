@@ -1,0 +1,11 @@
+/* sm  */
+@media (min-width:576px){
+    .call-action-content{
+        padding: 40px 0;
+    }
+}
+
+/* md  */
+@media (min-width:768px){
+    
+}
