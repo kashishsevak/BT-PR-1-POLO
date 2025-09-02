@@ -14,16 +14,16 @@
   cursor: pointer;
 }
 
-.carousel-content span{
-    line-height: 0;
+.carousel-content span {
+  line-height: 0;
 }
 
-.call-action{
-    height: 250px;
-    background-image: url(../image/parallax.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+.call-action {
+  height: 250px;
+  background-image: url(../image/parallax.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .call-action a {
@@ -36,4 +36,40 @@
 .call-action a:hover {
   color: #4c5667;
   background: #fff;
+}
+
+.work-btn a {
+  box-shadow: 0 4px 16px #efefef;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  padding: 10px 25px;
+}
+
+.work-btn a:hover {
+  background: #f4f5f8;
+  padding-right: 15px;
+  padding-left: 40px;
+  box-shadow: 4px 8px 16px #dedede;
+}
+
+.work-btn a::before {
+  transition: all 0.3s ease-in-out;
+}
+
+.work-btn a:hover::before {
+  content: '\F138';
+  font-family: 'bootstrap-icons';
+  font-weight: bold;
+  vertical-align: middle;
+  position: absolute;
+  left: 10px;
+}
+
+.work-btn span {
+  font-size: 14px !important;
+  font-weight: 600;
+  position: relative;
+  right: 0;
+  left:auto;
+  transition: all 0.2s ease-out;
 }
