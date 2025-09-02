@@ -14,14 +14,19 @@
   cursor: pointer;
 }
 
+.about-carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #212529;
+}
+
 .carousel-content span {
   line-height: 0;
 }
 
 .call-action {
-  height: 250px;
   background-image: url(../image/parallax.jpg);
-  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,8 +62,8 @@
 }
 
 .work-btn a:hover::before {
-  content: '\F138';
-  font-family: 'bootstrap-icons';
+  content: "\F138";
+  font-family: "bootstrap-icons";
   font-weight: bold;
   vertical-align: middle;
   position: absolute;
@@ -67,9 +72,33 @@
 
 .work-btn span {
   font-size: 14px !important;
-  font-weight: 600;
-  position: relative;
-  right: 0;
-  left:auto;
-  transition: all 0.2s ease-out;
+  font-weight: 700;
+}
+
+.our-number {
+  background-image: url(../image/parallax-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-number-content h1::before{
+  content: '';
+  width: 30px;
+  border: 1px solid #eee;
+  position: absolute;
+  top: 140%;
+  right: 45%;
+}
+
+.icon i{
+  border: 3px solid #333;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.icon-box:hover .icon i{
+  border: 3px solid #333;
+  text-align: center;
 }

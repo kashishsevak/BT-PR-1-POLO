@@ -7,5 +7,7 @@
 
 /* md  */
 @media (min-width:768px){
-    
+    .our-number-content h1{
+        font-size: 56px;
+    }
 }
