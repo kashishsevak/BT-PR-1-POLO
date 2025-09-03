@@ -94,16 +94,6 @@
   padding: 80px 0;
 }
 
-
-.service-content h1::before,.our-team-content h1::before {
-  content: '';
-  border: 1px solid #0000ff;
-  width: 100px;
-  position: absolute;
-  top: 120%;
-  left: 45%;
-}
-
 .icon i {
   border: 3px solid #333;
   width: 64px;
@@ -116,20 +106,44 @@
   padding: 80px 0;
   background-color: #F7F9FB !important;
 }
-
-.our-team-content h1::before {
-  content: '';
-  border: 1px solid #0000ff;
-  width: 100px;
-  position: absolute;
-  top: 135%;
-  left: 45%;
-}
-
+  
 .social-icon i{
   font-size: 10px;
   border: 1px solid #cbc2c2;
   height: 25px;
   width: 25px;
   line-height: 25px;
+}
+
+.our-progress span{
+  font-size: 12px !important;
+}
+
+.our-progress span:first-child{
+  font-weight: 700;
+}
+
+.accordion-button{
+  box-shadow: none !important;
+}
+
+.blog-post-content a{
+  color: #212529;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-post-content a:hover{
+  color: #1b1bee;
+}
+
+.blog-post-content span{
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.contact-us{
+  background-image: url(../image/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
 }
