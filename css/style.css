@@ -81,7 +81,7 @@
   background-size: cover;
 }
 
-.our-number-content h1::before{
+.our-number-content h1::before {
   content: '';
   width: 30px;
   border: 1px solid #eee;
@@ -90,7 +90,21 @@
   right: 45%;
 }
 
-.icon i{
+.service{
+  padding: 80px 0;
+}
+
+
+.service-content h1::before,.our-team-content h1::before {
+  content: '';
+  border: 1px solid #0000ff;
+  width: 100px;
+  position: absolute;
+  top: 120%;
+  left: 45%;
+}
+
+.icon i {
   border: 3px solid #333;
   width: 64px;
   height: 64px;
@@ -98,7 +112,24 @@
   text-align: center;
 }
 
-.icon-box:hover .icon i{
-  border: 3px solid #333;
-  text-align: center;
+.our-team{
+  padding: 80px 0;
+  background-color: #F7F9FB !important;
+}
+
+.our-team-content h1::before {
+  content: '';
+  border: 1px solid #0000ff;
+  width: 100px;
+  position: absolute;
+  top: 135%;
+  left: 45%;
+}
+
+.social-icon i{
+  font-size: 10px;
+  border: 1px solid #cbc2c2;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
 }
