@@ -15,7 +15,7 @@
 .dropdown-menu {
   display: none;
   background-color: #fff;
-  width: 250px;
+  width: 200px;
   border-radius: 5px;
   position: absolute;
   top: 100%;
@@ -26,6 +26,9 @@
   display: block;
 }
 
+.dropdown-menu a:hover,.mega-menu a:hover{
+  color: #1b1bee !important;
+}
 .mega-menu {
   display: none;
   flex-direction: column;
@@ -34,9 +37,9 @@
   height: 470px;
   border-radius: 5px;
   position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
+  top: 70%;
+  left: 30%;
+  right: 5%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -277,3 +280,17 @@
 .copyright-content {
   background-color: #eff1f4;
 }
+/* 
+.contact-us .social li a:hover i{
+  display: inline-block;
+  animation: social 0.2s linear;
+}
+
+@keyframes social{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+} */
