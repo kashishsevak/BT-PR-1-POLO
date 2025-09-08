@@ -1,13 +1,25 @@
 /* sm  */
-@media (min-width:576px){
-    .call-action-content{
-        padding: 40px 0;
-    }
+@media (min-width: 576px) {
+  .call-action-content {
+    padding: 40px 0;
+  }
 }
 
 /* md  */
-@media (min-width:768px){
-    .our-number-content h1{
-        font-size: 56px;
-    }
+@media (min-width: 768px) {
+  .our-number-content h1 {
+    font-size: 56px;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .dropdown-toggler:hover .dropdown-menu {
+    display: block;
+  }
+.mega-menu-toggler:hover .mega-menu {
+  display: flex;
+}
+
+
 }
