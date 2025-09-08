@@ -12,6 +12,10 @@
   position: relative;
 }
 
+.carousel-control-prev,.carousel-control-next{
+  z-index: 0;
+}
+
 .dropdown-menu {
   display: none;
   background-color: #fff;
@@ -38,8 +42,8 @@
   border-radius: 5px;
   position: absolute;
   top: 70%;
-  left: 30%;
-  right: 5%;
+  left: 20%;
+  right: 0;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -159,7 +163,6 @@
   padding: 15px;
   border: 3px solid #333;
 }
-
 
 .our-team {
   padding: 80px 0;
